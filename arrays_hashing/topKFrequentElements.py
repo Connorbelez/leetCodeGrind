@@ -1,6 +1,6 @@
 
 class Solution:
-    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+    def topKFrequent(self, nums: list[int], k: int) -> list[int]:
         kMap = {}
 
         for val in nums:

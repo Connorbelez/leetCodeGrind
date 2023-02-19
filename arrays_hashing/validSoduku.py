@@ -1,5 +1,5 @@
 class Solution:
-    def isValidSudoku(self, board: List[List[str]]) -> bool:
+    def isValidSudoku(self, board: list[list[str]]) -> bool:
         rows = dict(zip(list(range(9)), [set() for i in range(9)]))
         cols = dict(zip(list(range(9)), [set() for i in range(9)]))
         sqrs = {
